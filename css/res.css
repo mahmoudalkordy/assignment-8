@@ -126,7 +126,7 @@
 
         ul {
             li {
-                flex-basis: 0;
+                width: 24%;
 
                 button {
                     font-size: 16px;
