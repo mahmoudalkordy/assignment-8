@@ -1,0 +1,180 @@
+@media screen and (min-width:768px) {
+
+    /* navbar responsive */
+    nav.navbar {
+        padding: 16px 24px;
+    }
+
+    .logotitle {
+        h1 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    .ul-icons {
+        i {
+            width: 15px;
+            height: 28px;
+            margin-right: 24px;
+            font-size: 20px;
+        }
+
+        span {
+            display: none;
+        }
+    }
+
+    .collapse {
+        border-top: 0;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    /* meals responsive */
+
+    section {
+        padding: 32px 130px;
+    }
+
+    .meal {
+        flex-direction: row;
+        gap: 32px;
+        height: 750px;
+    }
+
+    .photo {
+        height: 100%;
+        width: 40%;
+
+        img {
+            border-radius: 0;
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 24px;
+        }
+
+        .details {
+            padding: 24px;
+
+            div {
+                i {
+                    font-size: 21px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                h2 {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .reviews {
+            p {
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            span {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .mid {
+        flex-direction: row;
+        flex-wrap: wrap;
+        direction: rtl;
+        justify-content: space-between;
+    }
+
+    .type {
+        direction: ltr;
+
+        h3 {
+            font-size: 36px;
+            line-height: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+
+    .lower {
+        height: 100%;
+        width: 60%;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: oklch(0.75 0.15 35 / 0.3) rgba(0, 0, 0, 0);
+
+        ul {
+            li {
+                button {
+                    font-size: 16px;
+                    line-height: 24px;
+
+                    i {
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .instructions {
+        p {
+            width: auto;
+        }
+    }
+
+    .nutrition {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .macros {
+        width: 48%;
+
+        span {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        h3 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+
+    .extended {
+
+        h4 {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}
